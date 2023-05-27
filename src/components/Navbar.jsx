@@ -1,5 +1,5 @@
 import { Search } from "@mui/icons-material";
-import { Badge, Input } from "@mui/material";
+import { Badge } from "@mui/material";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import React from "react";
 import styled from "styled-components";
@@ -11,6 +11,11 @@ const Wrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+`;
+const Input = styled.input`
+  border: none;
+  align-items: center;
+  justify-content: center;
 `;
 const Left = styled.div`
   flex: 1;
@@ -29,11 +34,7 @@ const SearchContainer = styled.div`
   padding: 3px;
   /* border-radius: 25px; */
 `;
-const input = styled.input`
-  border: none;
-  align-items: center;
-  justify-content: center;
-`;
+
 const Center = styled.div`
   flex: 1;
   text-align: center;
